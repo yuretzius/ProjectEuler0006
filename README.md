@@ -26,7 +26,7 @@ that's why I am sharing my work here for reference and educational purposes.
 
 There's an old trick in school algebra that I really love:
 
-$(k - 1)^2 = k^2 - 2k + 1 \Rightarrow 2k - 1 = k^2 - (k - 1)^2$
+$$(k - 1)^2 = k^2 - 2k + 1 \Rightarrow 2k - 1 = k^2 - (k - 1)^2$$
 
 If we sum these, iterating $k$ from $1$ to $n$:
 
@@ -44,7 +44,9 @@ $\sum\limits_{k = 1}^n k^2 = \frac{1}{3}(n^3 - n + 3\frac{n(n+1)}{2} ) = \frac{1
 
 So the answer to the problem:
 
-$\left ( \sum\limits_{k = 1}^{100} k \right )^2 - \sum\limits_{k = 1}^{100} k^2 = \frac{100^2 \cdot 101^2}{4} - \frac{100 \cdot 101 \cdot 201}{6} $
+$$\left ( \sum\limits_{k = 1}^{100} k \right )^2 - \sum\limits_{k = 1}^{100} k^2 = \frac{100^2 \cdot 101^2}{4} - \frac{100 \cdot 101 \cdot 201}{6} $$
+
+Thus the calculation is trivial:
 
 ```python
 N = 100
