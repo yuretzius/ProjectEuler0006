@@ -30,7 +30,7 @@ $$(k - 1)^2 = k^2 - 2k + 1 \Rightarrow 2k - 1 = k^2 - (k - 1)^2$$
 
 If we sum these, iterating $k$ from $1$ to $n$:
 
-$2 \sum\limits_{k = 1}^n k - \sum\limits_{k = 1}^n 1 = 2 \sum\limits_{k = 1}^n k - n = \sum\limits_{k = 1}^n [k^2 - (k - 1)^2]$.
+$$2 \sum\limits_{k = 1}^n k - \sum\limits_{k = 1}^n 1 = 2 \sum\limits_{k = 1}^n k - n = \sum\limits_{k = 1}^n [k^2 - (k - 1)^2].$$
 
 The RHS is "telescopic", all terms will cancel each other except for the highest and the lowest, namely $n^2$ and $0^2$. So we get:
 
