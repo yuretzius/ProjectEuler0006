@@ -38,9 +38,11 @@ $$2 \sum\limits_{k = 1}^n k - n = n^2 \Rightarrow \sum\limits_{k = 1}^n k = \fra
 
 Well, duh. A familiar formula for the arithmetic progression or triangular numbers or whatever. But the point is, we can do exactly the same operation with expansions of higher powers. For the cube:
 
-$(k - 1)^3 = k^3 - 3 k^2 + 3 k - 1  \Rightarrow 3 k^2 - 3 k + 1 = [k^3 - (k - 1)^3]$
-$3 \sum\limits_{k = 1}^n k^2 - 3 \sum\limits_{k = 1}^n k + \sum\limits_{k = 1}^n 1 = 3 \sum\limits_{k = 1}^n k^2 - 3\frac{n(n+1)}{2}  + n = \sum\limits_{k = 1}^n [k^3 - (k - 1)^3] = n^3$
-$\sum\limits_{k = 1}^n k^2 = \frac{1}{3}(n^3 - n + 3\frac{n(n+1)}{2} ) = \frac{1}{6}(2n^3 - 2n + 3n^2 + 3n) = \frac{1}{6}n(2n^2 + 3n + 1) = \frac{n(n+1)(2n+1)}{6}$.
+$$(k - 1)^3 = k^3 - 3 k^2 + 3 k - 1  \Rightarrow 3 k^2 - 3 k + 1 = [k^3 - (k - 1)^3]$$
+
+$$3 \sum\limits_{k = 1}^n k^2 - 3 \sum\limits_{k = 1}^n k + \sum\limits_{k = 1}^n 1 = 3 \sum\limits_{k = 1}^n k^2 - 3\frac{n(n+1)}{2}  + n = \sum\limits_{k = 1}^n [k^3 - (k - 1)^3] = n^3$$
+
+$$\sum\limits_{k = 1}^n k^2 = \frac{1}{3}(n^3 - n + 3\frac{n(n+1)}{2} ) = \frac{1}{6}(2n^3 - 2n + 3n^2 + 3n) = \frac{1}{6}n(2n^2 + 3n + 1) = \frac{n(n+1)(2n+1)}{6}.$$
 
 So the answer to the problem:
 
