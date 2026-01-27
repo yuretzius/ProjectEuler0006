@@ -34,7 +34,7 @@ $$2 \sum\limits_{k = 1}^n k - \sum\limits_{k = 1}^n 1 = 2 \sum\limits_{k = 1}^n 
 
 The RHS is "telescopic", all terms will cancel each other except for the highest and the lowest, namely $n^2$ and $0^2$. So we get:
 
-$2 \sum\limits_{k = 1}^n k - n = n^2 \Rightarrow \sum\limits_{k = 1}^n k = \frac{n(n+1)}{2}$.
+$$2 \sum\limits_{k = 1}^n k - n = n^2 \Rightarrow \sum\limits_{k = 1}^n k = \frac{n(n+1)}{2}.$$
 
 Well, duh. A familiar formula for the arithmetic progression or triangular numbers or whatever. But the point is, we can do exactly the same operation with expansions of higher powers. For the cube:
 
