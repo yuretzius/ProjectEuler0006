@@ -26,7 +26,7 @@ that's why I am sharing my work here for reference and educational purposes.
 
 There's an old trick in school algebra that I really love:
 
-$$(k - 1)^2 = k^2 - 2k + 1 \Rightarrow 2k - 1 = k^2 - (k - 1)^2$$
+$$(k - 1)^2 = k^2 - 2k + 1 \Rightarrow 2k - 1 = k^2 - (k - 1)^2$$.
 
 If we sum these, iterating $k$ from $1$ to $n$:
 
